@@ -1,0 +1,14 @@
+name: Go CI / CD
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  mytest:
+    name: Mytest
+    runs-on: ubuntu-latest
+    steps:
+      - name: hihi
+        run: echo "hihi"
