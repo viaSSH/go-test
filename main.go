@@ -11,7 +11,7 @@ func Calc(a int, b int) int {
 
 func main() {
 
-	fmt.Println("hello")
+	fmt.Println("THIS IS TEST CODE")
 
 	var c = Calc(1, 2)
 
